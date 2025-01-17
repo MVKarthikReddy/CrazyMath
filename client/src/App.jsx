@@ -1,16 +1,18 @@
 
 import './App.css'
-import { WorldMap1 } from './components/WorldMap'
-import { LoaderPage } from './pages/LoaderPage'
-import Loader from './utils/Loader'
+import { HomePage } from './pages/HomePage';
+import { Routes, Route } from 'react-router-dom';
+
 
 function App() {
 
   return (
-    <div>
-      <LoaderPage />
-      {/* <DynamicPosition /> */}
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+     
+    </>
   )
 }
 
