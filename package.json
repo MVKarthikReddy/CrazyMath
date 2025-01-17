@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@lottiefiles/dotlottie-react": "^0.12.1",
+    "react-svg-worldmap": "^2.0.0-alpha.16"
+  }
+}
